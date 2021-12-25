@@ -1,0 +1,14 @@
+
+# Change Log
+
+==================
+
+[1.0.0] 25/12/2021 - Ruby on Rails in Docker
+
+Changes:
+1. Updated Dockerfiles
+2. Updated Makefiles
+3. Ruby on Rails 7.0.0 support added
+4. Gems and packages updated
+5. New Alpine image support added
+6. Examples and comments added
