@@ -29,10 +29,10 @@ build-ror-prod:
 #
 .PHONY: publish-ror-dev
 publish-ror-dev:
-	docker pull kozhin/rails:7.0.0-dev
+	docker push kozhin/rails:7.0.0-dev
 #
 # Publishes base image for production
 #
 .PHONY: build-ror-prod
 publish-ror-prod:
-	docker pull kozhin/rails:7.0.0-prod
+	docker push kozhin/rails:7.0.0-prod

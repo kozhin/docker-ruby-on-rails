@@ -1,27 +1,32 @@
-# Ruby on Rails with Alpine Linux
 
-Project contains Ruby on Rails images. Every pair is available for development and production. In production we don't install Ruby on Rails. The framework is expected to be installed within a specific application.
+# Ruby on Rails with Docker and Alpine Linux
 
-See samples folder for more examples.
+One of the most popular frameworks for web-development - Ruby on Rails. Now fully in Docker for development and production deployments. Have fun!
 
-## Building images
+## Building base images
 
-If you want Ruby on Rails only application, use the following command to build images:
+Just install `make` and run from the repo folder:
 
 ```en
-docker build -t rails:latest-dev -f dev.Dockerfile .
-docker build -t rails:latest-prod -f prod.Dockerfile .
+# Docker image for development
+make build-ror-dev
+# Docker image for production
+make build-ror-prod
 ```
 
-## How to use in apps
+*Note:* in order to build production image, please, make sure your Docker app may get 4Gb of RAM.
+
+## How to use
+
+Once you have base images ready, you may build your an image for your application. Please, check `.devops` folder for examples. Basically, you will need to write your own Dockerfiles having base images specified with `FROM` instruction:
 
 ```en
 # add to your Dockerfile
-FROM <your docker registry URL>/rails:latest-dev
+FROM <your docker registry URL>/rails:${VERSION}-dev
 # or
-FROM <your docker registry URL>rails:latest-prod
+FROM <your docker registry URL>rails:${VERSION}-prod
 ```
 
-## Updating images
+## Updating base images
 
-In order to update images change env variables.
+In order to update base images change env variables in `Makefile` with proper versions of packages. Also you will need to rebuild your application images.
