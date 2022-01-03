@@ -4,7 +4,7 @@
 .PHONY: build-ror-dev
 build-ror-dev:
 	docker build \
-	--build-arg RUBY_VERSION="3.0.3" \
+	--build-arg RUBY_VERSION="3.1.0" \
 	--build-arg RAILS_VERSION="7.0.0" \
 	--build-arg BUNDLER_VERSION="2.2.28" \
 	-t kozhin/rails:7.0.0-dev \
@@ -16,7 +16,7 @@ build-ror-dev:
 .PHONY: build-ror-prod
 build-ror-prod:
 	docker build \
-	--build-arg RUBY_VERSION="3.0.3" \
+	--build-arg RUBY_VERSION="3.1.0" \
 	--build-arg RAILS_VERSION="7.0.0" \
 	--build-arg BUNDLER_VERSION="2.2.28" \
 	--build-arg NGINX_VERSION="1.20.2" \
@@ -33,6 +33,6 @@ publish-ror-dev:
 #
 # Publishes base image for production
 #
-.PHONY: build-ror-prod
+.PHONY: publish-ror-prod
 publish-ror-prod:
 	docker push kozhin/rails:7.0.0-prod

@@ -8,7 +8,7 @@ FROM ruby:${RUBY_VERSION}-alpine
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for development" \
       Maintainer="Konstantin Kozhin <https://github.com/kozhin>" \
       Vendor="" \
-      Version="1.0.1"
+      Version="1.0.2"
 
 # Set versions for Bundler and Ruby on Rails
 ARG RAILS_VERSION
