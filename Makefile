@@ -33,6 +33,6 @@ publish-ror-dev:
 #
 # Publishes base image for production
 #
-.PHONY: build-ror-prod
+.PHONY: publish-ror-prod
 publish-ror-prod:
 	docker push kozhin/rails:7.0.0-prod
