@@ -3,6 +3,14 @@
 
 ==================
 
+[1.0.2] 03/01/2022 - Ruby version update
+
+Changes:
+1. Ruby version 3.0.3 -> 3.1.0
+2. Minor updates and fixes
+
+==================
+
 [1.0.1] 26/12/2021 - Minor updates and fixes
 
 Changes:

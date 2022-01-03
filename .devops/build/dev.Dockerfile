@@ -18,6 +18,4 @@ RUN PACKAGES="tzdata nodejs npm yarn" && \
 # Update gems
     gem update --system && \
 # Install gems with bundler
-    bundle install && \
-# Install webpacker
-    rails webpacker:install
+    bundle install
