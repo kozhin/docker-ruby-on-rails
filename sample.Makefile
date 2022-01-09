@@ -8,7 +8,7 @@ ror-new-app:
 	docker run \
 		--rm \
 		-v $(shell pwd):/app \
-		-it kozhin/rails:7.0.0-dev \
+		-it kozhin/rails:7.0.1-dev \
 		rails new /app \
 			--skip-bundle \
 			--skip-coffee \
@@ -19,7 +19,7 @@ ror-new-app:
 .PHONY: build-pre
 build-pre:
 	docker build \
-		--build-arg RAILS_VERSION="7.0.0" \
+		--build-arg RAILS_VERSION="7.0.1" \
 		-t sample:dev \
 		-f .devops/build/pre.Dockerfile \
 		.
@@ -29,7 +29,7 @@ build-pre:
 .PHONY: build-dev
 build-dev:
 	docker build \
-		--build-arg RAILS_VERSION="7.0.0" \
+		--build-arg RAILS_VERSION="7.0.1" \
 		-t sample:dev \
 		-f .devops/build/dev.Dockerfile \
 		.
@@ -39,7 +39,7 @@ build-dev:
 .PHONY: build-prod
 build-prod:
 	docker build \
-		--build-arg RAILS_VERSION="7.0.0" \
+		--build-arg RAILS_VERSION="7.0.1" \
 		-t sample:prod \
 		-f .devops/build/prod.Dockerfile \
 		.

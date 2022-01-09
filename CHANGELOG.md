@@ -3,6 +3,14 @@
 
 ==================
 
+[1.0.3] 09/01/2022 - Bundler & Rails updated
+
+Changes:
+1. Bundler version 2.2.28 -> 2.3.4
+2. Rails version 7.0.0 -> 7.0.1
+
+==================
+
 [1.0.2] 03/01/2022 - Ruby version update
 
 Changes:
