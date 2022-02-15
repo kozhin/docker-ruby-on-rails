@@ -1,5 +1,13 @@
 
-# Change Log
+# Changelog
+
+==================
+
+[1.0.5] 15/02/2022 - Bundler & Rails updated
+
+Changes:
+1. Bundler version 2.3.6 -> 2.3.7
+2. Rails version 7.0.1 -> 7.0.2.2
 
 ==================
 
