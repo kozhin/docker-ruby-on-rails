@@ -3,6 +3,13 @@
 
 ==================
 
+[1.0.6] 23/02/2022 - Ruby version updated
+
+Changes:
+1. Ruby version 3.1.0 -> 3.1.1
+
+==================
+
 [1.0.5] 15/02/2022 - Bundler & Rails updated
 
 Changes:
