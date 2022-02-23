@@ -4,7 +4,7 @@
 .PHONY: build-ror-dev
 build-ror-dev:
 	docker build \
-	--build-arg RUBY_VERSION="3.1.0" \
+	--build-arg RUBY_VERSION="3.1.1" \
 	--build-arg RAILS_VERSION="7.0.2.2" \
 	--build-arg BUNDLER_VERSION="2.3.7" \
 	-t kozhin/rails:7.0.2.2-dev \
@@ -16,7 +16,7 @@ build-ror-dev:
 .PHONY: build-ror-prod
 build-ror-prod:
 	docker build \
-	--build-arg RUBY_VERSION="3.1.0" \
+	--build-arg RUBY_VERSION="3.1.1" \
 	--build-arg RAILS_VERSION="7.0.2.2" \
 	--build-arg BUNDLER_VERSION="2.3.7" \
 	--build-arg NGINX_VERSION="1.20.2" \
