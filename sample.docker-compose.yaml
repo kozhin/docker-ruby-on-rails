@@ -11,7 +11,7 @@ services:
         RAILS_VERSION: '7.0.2.3'
         PG_MAJOR: '13'
         NODE_MAJOR: '16'
-        YARN_VERSION: '1.22.17-r0'
+        YARN_VERSION: '1.22.18-r0'
     image: sample:dev
     environment: &env
       NODE_ENV: ${NODE_ENV:-development}

@@ -3,6 +3,15 @@
 
 ==================
 
+[1.0.8] 11/04/2022 - Bundler, Passenger & Yarn updated
+
+Changes:
+1. Bundler version 2.3.9 -> 2.3.11
+2. Passenger version 6.0.12 -> 6.0.13
+3. Yarn version 1.22.17-r0 -> 1.22.18-r0
+
+==================
+
 [1.0.7] 13/03/2022 - Bundler & Rails updated
 
 Changes:

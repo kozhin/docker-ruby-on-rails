@@ -6,7 +6,7 @@ build-ror-dev:
 	docker build \
 	--build-arg RUBY_VERSION="3.1.1" \
 	--build-arg RAILS_VERSION="7.0.2.3" \
-	--build-arg BUNDLER_VERSION="2.3.9" \
+	--build-arg BUNDLER_VERSION="2.3.11" \
 	-t kozhin/rails:7.0.2.3-dev \
 	-f dev.Dockerfile \
 	.
@@ -18,9 +18,9 @@ build-ror-prod:
 	docker build \
 	--build-arg RUBY_VERSION="3.1.1" \
 	--build-arg RAILS_VERSION="7.0.2.3" \
-	--build-arg BUNDLER_VERSION="2.3.9" \
+	--build-arg BUNDLER_VERSION="2.3.11" \
 	--build-arg NGINX_VERSION="1.20.2" \
-	--build-arg PASSENGER_VERSION="6.0.12" \
+	--build-arg PASSENGER_VERSION="6.0.13" \
 	-t kozhin/rails:7.0.2.3-prod \
 	-f prod.Dockerfile \
 	.
