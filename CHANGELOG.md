@@ -3,6 +3,13 @@
 
 ==================
 
+[1.0.9] 11/04/2022 - Ruby updated
+
+Changes:
+1. Ruby version 3.1.1 -> 3.1.2
+
+==================
+
 [1.0.8] 11/04/2022 - Bundler, Passenger & Yarn updated
 
 Changes:
