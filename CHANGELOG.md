@@ -1,8 +1,15 @@
 
 # Changelog
 
-==================
+===================
+[1.0.11] 11/05/2022 - Bundler, Passenger & Yarn updated
 
+Changes:
+1. Bundler version 2.3.12 -> 2.3.13
+2. Passenger version 6.0.13 -> 6.0.14
+3. Yarn version 1.22.18-r0 -> 1.22.19-r0
+
+===================
 [1.0.10] 01/05/2022 - Ruby on Rails and Bundler updated
 
 Changes:
@@ -10,14 +17,12 @@ Changes:
 2. Bundler version 2.3.11 -> 2.3.12
 
 ==================
-
 [1.0.9] 11/04/2022 - Ruby updated
 
 Changes:
 1. Ruby version 3.1.1 -> 3.1.2
 
 ==================
-
 [1.0.8] 11/04/2022 - Bundler, Passenger & Yarn updated
 
 Changes:
@@ -26,7 +31,6 @@ Changes:
 3. Yarn version 1.22.17-r0 -> 1.22.18-r0
 
 ==================
-
 [1.0.7] 13/03/2022 - Bundler & Rails updated
 
 Changes:
@@ -34,14 +38,12 @@ Changes:
 2. Rails version 7.0.2.2 -> 7.0.2.3
 
 ==================
-
 [1.0.6] 23/02/2022 - Ruby version updated
 
 Changes:
 1. Ruby version 3.1.0 -> 3.1.1
 
 ==================
-
 [1.0.5] 15/02/2022 - Bundler & Rails updated
 
 Changes:
@@ -49,14 +51,12 @@ Changes:
 2. Rails version 7.0.1 -> 7.0.2.2
 
 ==================
-
 [1.0.4] 29/02/2022 - Bundler updated
 
 Changes:
 1. Bundler version 2.3.4 -> 2.3.6
 
 ==================
-
 [1.0.3] 09/01/2022 - Bundler & Rails updated
 
 Changes:
@@ -64,7 +64,6 @@ Changes:
 2. Rails version 7.0.0 -> 7.0.1
 
 ==================
-
 [1.0.2] 03/01/2022 - Ruby version update
 
 Changes:
@@ -72,7 +71,6 @@ Changes:
 2. Minor updates and fixes
 
 ==================
-
 [1.0.1] 26/12/2021 - Minor updates and fixes
 
 Changes:
@@ -81,7 +79,6 @@ Changes:
 3. Minor renamings
 
 ==================
-
 [1.0.0] 25/12/2021 - Ruby on Rails in Docker
 
 Changes:
