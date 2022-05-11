@@ -20,7 +20,7 @@ build-ror-prod:
 	--build-arg RAILS_VERSION="7.0.2.4" \
 	--build-arg BUNDLER_VERSION="2.3.13" \
 	--build-arg NGINX_VERSION="1.20.2" \
-	--build-arg PASSENGER_VERSION="6.0.13" \
+	--build-arg PASSENGER_VERSION="6.0.14" \
 	-t kozhin/rails:7.0.2.4-prod \
 	-f prod.Dockerfile \
 	.
