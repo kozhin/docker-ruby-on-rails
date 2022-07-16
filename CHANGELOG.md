@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.0.12] 16/07/2022 - Rails, Bundler, Nginx updated
+
+Changes:
+1. Rails version 7.0.2.4 -> 7.0.3.1
+2. Bundler version 2.3.13 -> 2.3.18
+3. Nginx version 1.20.2 -> 1.22.0
+
+===================
 [1.0.11] 11/05/2022 - Bundler, Passenger & Yarn updated
 
 Changes:
