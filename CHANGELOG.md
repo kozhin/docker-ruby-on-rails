@@ -2,11 +2,12 @@
 # Changelog
 
 ===================
-[1.0.13] 12/09/2022 - Ruby on Rails and Bundler updated
+[1.1.0] 12/09/2022 - Multi-architecture support added
 
 Changes:
 1. Rails version 7.0.3.1 -> 7.0.4
 2. Bundler version 2.3.18 -> 2.3.22
+3. Multi-architecture support added (amd64 and arm64)
 
 ===================
 [1.0.12] 16/07/2022 - Rails, Bundler, Nginx updated
