@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.1] 20/09/2022 - Passenger update
+
+Changes:
+1. Passenger version 6.0.14 -> 6.0.15
+
+===================
 [1.1.0] 12/09/2022 - Multi-architecture support added
 
 Changes:
