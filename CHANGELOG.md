@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.1.2] 02/11/2022 - Bundler and Nginx update
+
+Changes:
+1. Bundler version 2.3.23 -> 2.3.25
+2. Nginx version 1.22.0 -> 1.22.1
+3. Other minor improvements and updates
+
+===================
 [1.1.1] 20/09/2022 - Passenger update
 
 Changes:
