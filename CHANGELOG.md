@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.1.3] 19/12/2022 - Bundler and Paggenger update
+
+Changes:
+1. Bundler version 2.3.25 -> 2.3.26
+2. Passenger version 6.0.15 -> 6.0.16
+3. NodeJS 16 -> 18 in docker-compose.yaml
+
+===================
 [1.1.2] 02/11/2022 - Bundler and Nginx update
 
 Changes:
