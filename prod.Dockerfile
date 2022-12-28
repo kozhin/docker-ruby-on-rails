@@ -8,7 +8,7 @@ FROM ruby:${RUBY_VERSION}-alpine
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for production" \
       Maintainer="Konstantin Kozhin <1387510+kozhin@users.noreply.github.com>" \
       Vendor="" \
-      Version="1.1.2"
+      Version="1.1.4"
 
 # Define arg variables
 ARG RAILS_VERSION
@@ -26,8 +26,9 @@ ENV NGINX_PATH /opt/nginx
 ENV PATH /src/passenger/bin:$PATH
 
 # Install packages
-RUN PACKAGES="bash curl git pcre procps ca-certificates libstdc++" && \
-    BUILD_PACKAGES="build-base linux-headers curl-dev pcre-dev ruby-dev zlib-dev libexecinfo-dev boost-dev" && \
+RUN export VERBOSE=1 && \
+    PACKAGES="bash curl git pcre procps ca-certificates libstdc++" && \
+    BUILD_PACKAGES="build-base linux-headers curl-dev pcre-dev ruby-dev zlib-dev boost-dev" && \
     apk add --no-cache --update ${PACKAGES} ${BUILD_PACKAGES} && \
     gem install rack rake --no-document && \
 # Download and extract
@@ -38,7 +39,7 @@ RUN PACKAGES="bash curl git pcre procps ca-certificates libstdc++" && \
     mv nginx-${NGINX_VERSION} nginx && \
     curl -L https://s3.amazonaws.com/phusion-passenger/releases/passenger-${PASSENGER_VERSION}.tar.gz | tar -xzf - -C /src && \
     mv passenger-${PASSENGER_VERSION} passenger && \
-    export EXTRA_PRE_CFLAGS='-O' EXTRA_PRE_CXXFLAGS='-O' EXTRA_LDFLAGS='-lexecinfo' && \
+    export EXTRA_PRE_CFLAGS='-O' EXTRA_PRE_CXXFLAGS='-O' && \
 # Compile Nginx + Passenger
 # HINT: Comment out unnecessary modules
     passenger-install-nginx-module --auto \
