@@ -2,12 +2,12 @@
 # Changelog
 
 ===================
-[1.1.4] ??/01/2023 - Bundler and Passenger update
+[1.1.4] ??/01/2023 - Ruby, Bundler and Passenger updates
 
 Changes:
 1. Ruby 3.1.2 -> 3.2.0
-2. Bundler 2.3.26 -> 2.4.2
-3. Found an issue with libexecinfo-dev [this issue](https://github.com/DataDog/dd-trace-php/issues/1824): REMOVED
+2. Bundler 2.3.26 -> 2.4.3
+3. Found an issue with `libexecinfo-dev` in Alpine Linux: REMOVED
 4. And one more [issue with Passenger](https://github.com/phusion/passenger/issues/2464): WAITING
 
 ===================
