@@ -13,7 +13,7 @@ ror-dev:
 		--build-arg RAILS_VERSION="7.0.4.1" \
 		--build-arg BUNDLER_VERSION="2.4.5" \
 		--push \
-		-t kozhin/rails:7.0.4-dev \
+		-t kozhin/rails:7.0.4.1-dev \
 		-f dev.Dockerfile \
 		.
 #
@@ -29,6 +29,6 @@ ror-prod:
 		--build-arg NGINX_VERSION="1.22.1" \
 		--build-arg PASSENGER_VERSION="6.0.16" \
 		--push \
-		-t kozhin/rails:7.0.4-prod \
+		-t kozhin/rails:7.0.4.1-prod \
 		-f prod.Dockerfile \
 		.

@@ -2,14 +2,14 @@
 # Changelog
 
 ===================
-[1.1.4] ??/??/2023 - Ruby, Rails, Bundler and Passenger updates
+[1.1.4] 24/01/2023 - Ruby, Rails, Bundler and Passenger updates
 
 Changes:
 1. Ruby 3.1.2 -> 3.2.0
 2. Bundler 2.3.26 -> 2.4.5
 3. Rails version 7.0.4 -> 7.0.4.1
 4. Found an issue with `libexecinfo-dev` in Alpine Linux: REMOVED
-5. And one more [issue with Passenger](https://github.com/phusion/passenger/issues/2464): WAITING
+5. And one more [issue with Passenger](https://github.com/phusion/passenger/issues/2464): PATCHED
 
 ===================
 [1.1.3] 19/12/2022 - Bundler and Paggenger update
