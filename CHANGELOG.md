@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.5] 25/01/2023 - Ruby on Rails version update
+
+Changes:
+1. Rails version 7.0.4.1 -> 7.0.4.2
+
+===================
 [1.1.4] 24/01/2023 - Ruby, Rails, Bundler and Passenger updates
 
 Changes:
