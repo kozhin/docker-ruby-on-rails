@@ -8,7 +8,7 @@ FROM ruby:${RUBY_VERSION}-alpine
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for production" \
       Maintainer="Konstantin Kozhin <1387510+kozhin@users.noreply.github.com>" \
       Vendor="" \
-      Version="1.1.5"
+      Version="1.1.4"
 
 # Define arg variables
 ARG RAILS_VERSION
