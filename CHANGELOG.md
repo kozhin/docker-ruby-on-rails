@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.6] 26/01/2023 - Passenger update
+
+Changes:
+1. Passenger version 6.0.16 -> 6.0.17
+
+===================
 [1.1.5] 25/01/2023 - Ruby on Rails version update
 
 Changes:
