@@ -1,0 +1,13 @@
+# Ignore MacOS X files
+.DS_Store
+
+# Ignore VS Code configuration
+.vscode/
+
+# Ignore .env and .aws files
+.env
+.aws_credentials
+
+# Ignore git stuff
+.git/
+.gitignore
