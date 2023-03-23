@@ -2,6 +2,13 @@
 # Changelog
 
 ===================
+[1.1.9] 23/03/2023 - Bundler update
+
+Changes:
+1. Bundler 2.4.8 -> 2.4.9
+2. .dockerfile updated
+
+===================
 [1.1.8] 14/03/2023 - Ruby on Rails and Bundler update
 
 Changes:
