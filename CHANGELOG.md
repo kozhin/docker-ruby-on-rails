@@ -2,6 +2,13 @@
 # Changelog
 
 ===================
+[1.1.10] 31/03/2023 - Ruby and Bundler update
+
+Changes:
+1. Ruby 3.2.1 -> 3.2.2
+2. Bundler 2.4.9 -> 2.4.10
+
+===================
 [1.1.9] 23/03/2023 - Bundler update
 
 Changes:
