@@ -2,6 +2,13 @@
 # Changelog
 
 ===================
+[1.1.11] 08/05/2023 - Bundler update
+
+Changes:
+1. Bundler 2.4.10 -> 2.4.12
+2. `NODE_MAJOR` switched to version 20
+
+===================
 [1.1.10] 31/03/2023 - Ruby and Bundler update
 
 Changes:
