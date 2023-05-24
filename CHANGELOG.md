@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.1.12] 24/05/2023 - Ruby on Rails, Bundler and Nginx update
+
+Changes:
+1. Rails 7.0.4.3 -> 7.0.5
+2. Bundler 2.4.12 -> 2.4.13
+3. Nginx 1.22.1 -> 1.24.0
+
+===================
 [1.1.11] 08/05/2023 - Bundler update
 
 Changes:

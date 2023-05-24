@@ -1,4 +1,4 @@
 
 # Contributing
 
-TBD
+Just make a pull request :P
