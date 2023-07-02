@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.1.13] 02/07/2023 - Ruby on Rails, Bundler and Passenger update
+
+Changes:
+1. Rails 7.0.5 -> 7.0.6
+2. Bundler 2.4.13 -> 2.4.15
+3. Passenger version 6.0.17 -> 6.0.18
+
+===================
 [1.1.12] 24/05/2023 - Ruby on Rails, Bundler and Nginx update
 
 Changes:
