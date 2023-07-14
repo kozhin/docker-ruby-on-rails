@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.14] 14/07/2023 - Bundler minor update
+
+Changes:
+1. Bundler 2.4.15 -> 2.4.17
+
+===================
 [1.1.13] 02/07/2023 - Ruby on Rails, Bundler and Passenger update
 
 Changes:
