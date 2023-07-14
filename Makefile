@@ -11,7 +11,7 @@ ror-dev:
 		--platform=linux/amd64,linux/arm64 \
 		--build-arg RUBY_VERSION="3.2.2" \
 		--build-arg RAILS_VERSION="7.0.6" \
-		--build-arg BUNDLER_VERSION="2.4.15" \
+		--build-arg BUNDLER_VERSION="2.4.17" \
 		--push \
 		-t kozhin/rails:7.0.6-dev \
 		-f dev.Dockerfile \
@@ -25,7 +25,7 @@ ror-prod:
 		--platform=linux/amd64,linux/arm64 \
 		--build-arg RUBY_VERSION="3.2.2" \
 		--build-arg RAILS_VERSION="7.0.6" \
-		--build-arg BUNDLER_VERSION="2.4.15" \
+		--build-arg BUNDLER_VERSION="2.4.17" \
 		--build-arg NGINX_VERSION="1.24.0" \
 		--build-arg PASSENGER_VERSION="6.0.18" \
 		--push \
