@@ -19,7 +19,7 @@ services:
       context: .devops/build
       dockerfile: dev.Dockerfile
       args:
-        RAILS_VERSION: '7.0.7.1'
+        RAILS_VERSION: '7.0.7.2'
         PG_MAJOR: '14'
         NODE_MAJOR: '20'
         YARN_VERSION: '1.22.19-r0'
