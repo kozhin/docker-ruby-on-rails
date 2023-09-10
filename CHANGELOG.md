@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.18] 10/09/2023 - Ruby on Rails update
+
+Changes:
+1. Rails 7.0.7.2 -> 7.0.8
+
+===================
 [1.1.17] 30/08/2023 - Ruby on Rails update
 
 Changes:

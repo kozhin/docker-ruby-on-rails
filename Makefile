@@ -10,10 +10,10 @@ ror-dev:
 	docker buildx build \
 		--platform=linux/amd64,linux/arm64 \
 		--build-arg RUBY_VERSION="3.2.2" \
-		--build-arg RAILS_VERSION="7.0.7.2" \
+		--build-arg RAILS_VERSION="7.0.8" \
 		--build-arg BUNDLER_VERSION="2.4.19" \
 		--push \
-		-t kozhin/rails:7.0.7.2-dev \
+		-t kozhin/rails:7.0.8-dev \
 		-f dev.Dockerfile \
 		.
 #
@@ -24,11 +24,11 @@ ror-prod:
 	docker buildx build \
 		--platform=linux/amd64,linux/arm64 \
 		--build-arg RUBY_VERSION="3.2.2" \
-		--build-arg RAILS_VERSION="7.0.7.2" \
+		--build-arg RAILS_VERSION="7.0.8" \
 		--build-arg BUNDLER_VERSION="2.4.19" \
 		--build-arg NGINX_VERSION="1.24.0" \
 		--build-arg PASSENGER_VERSION="6.0.18" \
 		--push \
-		-t kozhin/rails:7.0.7.2-prod \
+		-t kozhin/rails:7.0.8-prod \
 		-f prod.Dockerfile \
 		.
