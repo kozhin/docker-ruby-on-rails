@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.1.20] 12/10/2023 - Ruby on Rails update
+
+Changes:
+1. Rails 7.1.0 -> 7.1.1
+
+===================
 [1.1.19] 12/10/2023 - Ruby on Rails update
 
 Changes:
