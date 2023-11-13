@@ -2,12 +2,13 @@
 # Changelog
 
 ===================
-[1.1.21] 11/11/2023 - Ruby on Rails update
+[1.2.0] 13/11/2023 - Ruby on Rails update
 
 Changes:
 1. Rails 7.1.1 -> 7.1.2
 2. Bundler 2.4.20 -> 2.4.22
 3. `.devops/conf` folder added
+4. Separate builds for `arm64` and `amd64`
 
 ===================
 [1.1.20] 12/10/2023 - Ruby on Rails update
