@@ -9,9 +9,9 @@
 ror-dev:
 	docker buildx build \
 		--platform=linux/amd64,linux/arm64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		--push \
 		-t kozhin/rails:7.1.2-dev \
 		-f dev.Dockerfile \
@@ -21,9 +21,9 @@ ror-dev:
 ror-dev-arm64:
 	docker build \
 		--platform=linux/arm64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		-t kozhin/rails:7.1.2-dev \
 		-f dev.Dockerfile \
 		.
@@ -32,9 +32,9 @@ ror-dev-arm64:
 ror-dev-amd64:
 	docker build \
 		--platform=linux/amd64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		-t kozhin/rails:7.1.2-dev \
 		-f dev.Dockerfile \
 		.
@@ -46,9 +46,9 @@ ror-dev-amd64:
 ror-prod:
 	docker buildx build \
 		--platform=linux/amd64,linux/arm64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		--build-arg NGINX_VERSION="1.24.0" \
 		--build-arg PASSENGER_VERSION="6.0.18" \
 		--push \
@@ -60,9 +60,9 @@ ror-prod:
 ror-prod-arm64:
 	docker build \
 		--platform=linux/arm64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		--build-arg NGINX_VERSION="1.24.0" \
 		--build-arg PASSENGER_VERSION="6.0.18" \
 		-t kozhin/rails:7.1.2-prod \
@@ -73,9 +73,9 @@ ror-prod-arm64:
 ror-prod-amd64:
 	docker build \
 		--platform=linux/amd64 \
-		--build-arg RUBY_VERSION="3.2.2" \
+		--build-arg RUBY_VERSION="3.3.0" \
 		--build-arg RAILS_VERSION="7.1.2" \
-		--build-arg BUNDLER_VERSION="2.5.2" \
+		--build-arg BUNDLER_VERSION="2.5.3" \
 		--build-arg NGINX_VERSION="1.24.0" \
 		--build-arg PASSENGER_VERSION="6.0.18" \
 		-t kozhin/rails:7.1.2-prod \
