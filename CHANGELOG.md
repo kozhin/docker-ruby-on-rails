@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.2.3] 17/01/2024 - Ruby on Rails update
+
+Changes:
+1. Rails 7.1.2 -> 7.1.3
+
+===================
 [1.2.2] 08/01/2024 - Ruby and Bundler update
 
 Changes:
