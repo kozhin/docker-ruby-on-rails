@@ -2,6 +2,13 @@
 # Changelog
 
 ===================
+[1.2.4] 19/01/2024 - Makefile fix
+
+Changes:
+1. Bundler 2.5.3 -> 2.5.5
+2. Makefile fix
+
+===================
 [1.2.3] 17/01/2024 - Ruby on Rails update
 
 Changes:
