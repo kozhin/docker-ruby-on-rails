@@ -50,7 +50,7 @@ ror-prod:
 		--build-arg RAILS_VERSION="7.1.3" \
 		--build-arg BUNDLER_VERSION="2.5.5" \
 		--build-arg NGINX_VERSION="1.24.0" \
-		--build-arg PASSENGER_VERSION="6.0.18" \
+		--build-arg PASSENGER_VERSION="6.0.20" \
 		--push \
 		-t kozhin/rails:7.1.3-prod \
 		-f prod.Dockerfile \
@@ -64,7 +64,7 @@ ror-prod-arm64:
 		--build-arg RAILS_VERSION="7.1.3" \
 		--build-arg BUNDLER_VERSION="2.5.5" \
 		--build-arg NGINX_VERSION="1.24.0" \
-		--build-arg PASSENGER_VERSION="6.0.18" \
+		--build-arg PASSENGER_VERSION="6.0.20" \
 		-t kozhin/rails:7.1.3-prod \
 		-f prod.Dockerfile \
 		.
@@ -77,7 +77,7 @@ ror-prod-amd64:
 		--build-arg RAILS_VERSION="7.1.3" \
 		--build-arg BUNDLER_VERSION="2.5.5" \
 		--build-arg NGINX_VERSION="1.24.0" \
-		--build-arg PASSENGER_VERSION="6.0.18" \
+		--build-arg PASSENGER_VERSION="6.0.20" \
 		-t kozhin/rails:7.1.3-prod \
 		-f prod.Dockerfile \
 		.
