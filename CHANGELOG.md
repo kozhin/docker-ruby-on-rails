@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.2.5] 23/01/2024 - Passenger update
+
+Changes:
+1. Passenger 6.0.18 -> 6.0.20
+
+===================
 [1.2.4] 19/01/2024 - Makefile fix
 
 Changes:
