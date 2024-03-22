@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.2.8] 23/03/2024 - Bundler update
+
+Changes:
+1. Bundler 2.5.6 -> 2.5.7
+
+===================
 [1.2.7] 23/02/2024 - Ruby on Rails update
 
 Changes:
