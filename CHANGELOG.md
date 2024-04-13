@@ -2,6 +2,12 @@
 # Changelog
 
 ===================
+[1.2.9] 13/04/2024 - Bundler update
+
+Changes:
+1. Bundler 2.5.6 -> 2.5.9
+
+===================
 [1.2.8] 23/03/2024 - Bundler update
 
 Changes:
