@@ -2,6 +2,14 @@
 # Changelog
 
 ===================
+[1.2.11] 19/05/2024 - Rails and Passenger update
+
+Changes:
+1. Rails 7.1.3.2 -> 7.1.3.3
+2. Passenger 6.0.20 -> 6.0.22
+3. PostgreSQL updated to 16
+
+===================
 [1.2.10] 05/05/2024 - Ruby and Bundler update
 
 Changes:
