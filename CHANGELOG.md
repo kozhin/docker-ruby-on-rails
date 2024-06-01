@@ -2,6 +2,13 @@
 # Changelog
 
 ===================
+[1.2.12] 01/06/2024 - Ruby and Bundler update
+
+Changes:
+1. Bundler 2.5.10 -> 2.5.11
+2. Ruby 3.3.1 -> 3.3.2
+
+===================
 [1.2.11] 19/05/2024 - Rails and Passenger update
 
 Changes:
