@@ -1,8 +1,9 @@
 # Define arg variable for image
 ARG RAILS_VERSION
+ARG REPO_NAME
 
 # Application image for development
-FROM kozhin/rails:${RAILS_VERSION}-dev
+FROM ${REPO_NAME}/rails:${RAILS_VERSION}-dev
 
 WORKDIR /app
 
