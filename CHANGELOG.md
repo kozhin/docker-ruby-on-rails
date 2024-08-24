@@ -2,14 +2,23 @@
 # Changelog
 
 ===================
+[1.3.1] 24/08/2024 - Rails update
+
+Changes:
+1. Bundler 2.5.12 -> 2.5.17
+2. Ruby 3.3.3 -> 3.3.4
+3. Rails 7.1.3.4 -> 7.2.1
+4. Nginx 1.26.1 -> 1.26.2
+5. Dockerfiles updated
+
+===================
 [1.3.0] 14/06/2024 - Big update
 
 Changes:
 1. Bundler 2.5.11 -> 2.5.12
 2. Ruby 3.3.2 -> 3.3.3
 3. Rails 7.1.3.3 -> 7.1.3.4
-4. Nginx 3.3.1 -> 3.3.2
-5. No removed builds on hub.docker.com
+4. No removed builds on hub.docker.com
 
 ===================
 [1.2.12] 01/06/2024 - Ruby and Bundler update

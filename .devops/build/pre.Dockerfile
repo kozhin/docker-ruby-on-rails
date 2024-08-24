@@ -1,6 +1,6 @@
 # Define arg variable for image
-ARG RAILS_VERSION
-ARG REPO_NAME
+ARG RAILS_VERSION="3.3.4"
+ARG REPO_NAME="registry.example.com:5000"
 
 # Application image for development
 FROM ${REPO_NAME}/rails:${RAILS_VERSION}-dev
