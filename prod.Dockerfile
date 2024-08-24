@@ -1,15 +1,15 @@
 # Define arg variable for image
 ARG RUBY_VERSION="3.3.4"
-ARG REPO_NAME=""
+ARG REPO_PATH=""
 
 # Set initial image
-FROM ${REPO_NAME}ruby:${RUBY_VERSION}-alpine
+FROM ${REPO_PATH}ruby:${RUBY_VERSION}-alpine
 
 # Set maintainer and info for image
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for production" \
       Maintainer="Konstantin Kozhin <1387510+kozhin@users.noreply.github.com>" \
       Vendor="" \
-      Version="1.3.1"
+      Version="1.3.2"
 
 # Define arg variables
 ARG RAILS_VERSION
