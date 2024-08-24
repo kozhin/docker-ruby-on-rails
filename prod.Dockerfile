@@ -1,14 +1,15 @@
 # Define arg variable for image
-ARG RUBY_VERSION
+ARG RUBY_VERSION="3.3.4"
+ARG REPO_NAME=""
 
 # Set initial image
-FROM ruby:${RUBY_VERSION}-alpine
+FROM ${REPO_NAME}ruby:${RUBY_VERSION}-alpine
 
 # Set maintainer and info for image
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for production" \
       Maintainer="Konstantin Kozhin <1387510+kozhin@users.noreply.github.com>" \
       Vendor="" \
-      Version="1.2.0"
+      Version="1.3.1"
 
 # Define arg variables
 ARG RAILS_VERSION
@@ -16,14 +17,14 @@ ARG NGINX_VERSION
 ARG PASSENGER_VERSION
 
 # Set Ruby on Rails verstion to install
-ENV RAILS_VERSION $RAILS_VERSION
-ENV NGINX_VERSION $NGINX_VERSION
-ENV PASSENGER_VERSION $PASSENGER_VERSION
+ENV RAILS_VERSION=${RAILS_VERSION}
+ENV NGINX_VERSION=${NGINX_VERSION}
+ENV PASSENGER_VERSION=${PASSENGER_VERSION}
 
 # Set env variables
-ENV NGINX_SRC_PATH /src/nginx
-ENV NGINX_PATH /opt/nginx
-ENV PATH /src/passenger/bin:$PATH
+ENV NGINX_SRC_PATH="/src/nginx"
+ENV NGINX_PATH="/opt/nginx"
+ENV PATH="/src/passenger/bin:${PATH}"
 
 # Install packages
 RUN export PACKAGES="bash curl git pcre procps ca-certificates libstdc++" && \

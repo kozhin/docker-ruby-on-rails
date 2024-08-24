@@ -1,26 +1,27 @@
 # Define arg variable for image
-ARG RUBY_VERSION
+ARG RUBY_VERSION="3.3.4"
+ARG REPO_NAME=""
 
 # Set initial image
-FROM ruby:${RUBY_VERSION}-alpine
+FROM ${REPO_NAME}ruby:${RUBY_VERSION}-alpine
 
 # Set maintainer and info for image
 LABEL Description="This image contains Ruby language and Ruby on Rails framework for development" \
       Maintainer="Konstantin Kozhin <1387510+kozhin@users.noreply.github.com>" \
       Vendor="" \
-      Version="1.2.0"
+      Version="1.3.1"
 
 # Set versions for Bundler and Ruby on Rails
 ARG RAILS_VERSION
 ARG BUNDLER_VERSION
-ENV RAILS_VERSION $RAILS_VERSION
-ENV BUNDLER_VERSION $BUNDLER_VERSION
+ENV RAILS_VERSION=${RAILS_VERSION}
+ENV BUNDLER_VERSION=${BUNDLER_VERSION}
 
 # Set env variables for the Bundler
-ENV LANG=C.UTF-8 \
+ENV LANG="C.UTF-8" \
     BUNDLE_JOBS=4 \
     BUNDLE_RETRY=3 \
-    PATH=/app/bin:$PATH
+    PATH="/app/bin:${PATH}"
 
 # Install Vim colors
 RUN mkdir -p ./.vim/colors
